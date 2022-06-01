@@ -11,13 +11,6 @@ from std_msgs.msg import *
 class SimpleArmMission(Node):
     def __init__(self):
         super().__init__('simple_arm_mission')
-        #self.declare_parameter('armed', False)
-        #self.offboard_control_mode_publisher_ = self.create_publisher(
-        #    OffboardControlMode 
-        #    , "fmu/offboradcontrolmode/in"
-        #    , 10
-        #    
-        #)
 
         self.vehicle_command_publisher_ = self.create_publisher(
             VehicleCommand
@@ -48,27 +41,22 @@ class SimpleArmMission(Node):
         
         self.timestamp_ = 0
         self.armed =True
-        #self.publish_vehicle_command(VehicleCommand.VEHICLE_CMD_DO_SET_MODE, 1.0, 6.0)
         
         
 
     def process_vehicle_status(self, status):
         if(status.arming_state == 2):
-            #global armed
             self.armed = True
             print('Status: Armed')
         elif(status.arming_state == 1):
-            #global armed
             self.armed = False
             print('Status: Disarmed')
             
     def listener_callback(self, msg):
-        print('arm? ', bool(self.armed))
+        print('Armed status:  ', bool(self.armed))
         if msg.data.find("monitor") == 0 and not self.armed:
-            print('seriøst mand')
             self.arm()
         elif msg.data.find("electric fan") == 0 and self.armed:
-            print('tissemand')
             self.disarm()
 
         
