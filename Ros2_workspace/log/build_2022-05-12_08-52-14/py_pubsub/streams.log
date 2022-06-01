@@ -1,0 +1,26 @@
+[19.717s] Invoking command in '/home/xilinx/wrkspace/src/py_pubsub': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/share/pynq-venv/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/xilinx/wrkspace/build/py_pubsub/build install --prefix /home/xilinx/wrkspace/install/py_pubsub --record /home/xilinx/wrkspace/build/py_pubsub/install.log --single-version-externally-managed
+[21.970s] /usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/dist.py:767: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[21.971s]   warnings.warn(
+[27.327s] running egg_info
+[27.913s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[28.366s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[29.820s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[30.720s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[31.172s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[31.881s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[31.890s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[31.891s] running build
+[31.893s] running build_py
+[31.894s] running install
+[31.895s] /usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[31.896s]   warnings.warn(
+[31.947s] running install_lib
+[32.530s] running install_data
+[32.658s] running install_egg_info
+[33.241s] removing '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[33.243s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[33.247s] running install_scripts
+[34.423s] Installing listener script to /home/xilinx/wrkspace/install/py_pubsub/bin
+[34.424s] Installing talker script to /home/xilinx/wrkspace/install/py_pubsub/bin
+[34.427s] writing list of installed files to '/home/xilinx/wrkspace/build/py_pubsub/install.log'
+[35.352s] Invoked command in '/home/xilinx/wrkspace/src/py_pubsub' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/share/pynq-venv/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/xilinx/wrkspace/build/py_pubsub/build install --prefix /home/xilinx/wrkspace/install/py_pubsub --record /home/xilinx/wrkspace/build/py_pubsub/install.log --single-version-externally-managed

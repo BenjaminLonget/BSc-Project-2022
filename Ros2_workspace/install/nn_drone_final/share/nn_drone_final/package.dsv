@@ -1,0 +1,6 @@
+source;share/nn_drone_final/hook/pythonpath.ps1
+source;share/nn_drone_final/hook/pythonpath.dsv
+source;share/nn_drone_final/hook/pythonpath.sh
+source;share/nn_drone_final/hook/ament_prefix_path.ps1
+source;share/nn_drone_final/hook/ament_prefix_path.dsv
+source;share/nn_drone_final/hook/ament_prefix_path.sh

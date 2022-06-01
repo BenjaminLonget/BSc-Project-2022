@@ -1,0 +1,669 @@
+[0.000000] (-) TimerEvent: {}
+[0.001828] (got_coffe) JobQueued: {'identifier': 'got_coffe', 'dependencies': OrderedDict()}
+[0.002112] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002656] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.004089] (got_coffe) JobStarted: {'identifier': 'got_coffe'}
+[0.099668] (-) TimerEvent: {}
+[0.205807] (-) TimerEvent: {}
+[0.247103] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.306727] (-) TimerEvent: {}
+[0.407854] (-) TimerEvent: {}
+[0.508962] (-) TimerEvent: {}
+[0.609828] (-) TimerEvent: {}
+[0.710652] (-) TimerEvent: {}
+[0.811698] (-) TimerEvent: {}
+[0.912669] (-) TimerEvent: {}
+[1.013781] (-) TimerEvent: {}
+[1.114799] (-) TimerEvent: {}
+[1.215922] (-) TimerEvent: {}
+[1.316881] (-) TimerEvent: {}
+[1.417799] (-) TimerEvent: {}
+[1.518921] (-) TimerEvent: {}
+[1.619871] (-) TimerEvent: {}
+[1.726112] (-) TimerEvent: {}
+[1.842624] (-) TimerEvent: {}
+[1.943751] (-) TimerEvent: {}
+[2.044950] (-) TimerEvent: {}
+[2.146221] (-) TimerEvent: {}
+[2.217046] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[2.251475] (-) TimerEvent: {}
+[2.367944] (-) TimerEvent: {}
+[2.473912] (-) TimerEvent: {}
+[2.575467] (-) TimerEvent: {}
+[2.676803] (-) TimerEvent: {}
+[2.778165] (-) TimerEvent: {}
+[2.879478] (-) TimerEvent: {}
+[2.980745] (-) TimerEvent: {}
+[3.082220] (-) TimerEvent: {}
+[3.183622] (-) TimerEvent: {}
+[3.284943] (-) TimerEvent: {}
+[3.386335] (-) TimerEvent: {}
+[3.487690] (-) TimerEvent: {}
+[3.589043] (-) TimerEvent: {}
+[3.690490] (-) TimerEvent: {}
+[3.791801] (-) TimerEvent: {}
+[3.893094] (-) TimerEvent: {}
+[3.994420] (-) TimerEvent: {}
+[4.095769] (-) TimerEvent: {}
+[4.197144] (-) TimerEvent: {}
+[4.298503] (-) TimerEvent: {}
+[4.399910] (-) TimerEvent: {}
+[4.501220] (-) TimerEvent: {}
+[4.602606] (-) TimerEvent: {}
+[4.703945] (-) TimerEvent: {}
+[4.805244] (-) TimerEvent: {}
+[4.906607] (-) TimerEvent: {}
+[5.007902] (-) TimerEvent: {}
+[5.109208] (-) TimerEvent: {}
+[5.210668] (-) TimerEvent: {}
+[5.716165] (-) TimerEvent: {}
+[5.817560] (-) TimerEvent: {}
+[5.918989] (-) TimerEvent: {}
+[6.020426] (-) TimerEvent: {}
+[6.121845] (-) TimerEvent: {}
+[6.223268] (-) TimerEvent: {}
+[6.324709] (-) TimerEvent: {}
+[6.426188] (-) TimerEvent: {}
+[6.527640] (-) TimerEvent: {}
+[6.629071] (-) TimerEvent: {}
+[6.730520] (-) TimerEvent: {}
+[6.831958] (-) TimerEvent: {}
+[6.933435] (-) TimerEvent: {}
+[7.034891] (-) TimerEvent: {}
+[7.136271] (-) TimerEvent: {}
+[7.237776] (-) TimerEvent: {}
+[7.339182] (-) TimerEvent: {}
+[7.440624] (-) TimerEvent: {}
+[7.542106] (-) TimerEvent: {}
+[7.643534] (-) TimerEvent: {}
+[7.745010] (-) TimerEvent: {}
+[7.846495] (-) TimerEvent: {}
+[7.947956] (-) TimerEvent: {}
+[8.049390] (-) TimerEvent: {}
+[8.150819] (-) TimerEvent: {}
+[8.252216] (-) TimerEvent: {}
+[8.353695] (-) TimerEvent: {}
+[8.455160] (-) TimerEvent: {}
+[8.556569] (-) TimerEvent: {}
+[8.658137] (-) TimerEvent: {}
+[8.759693] (-) TimerEvent: {}
+[8.861171] (-) TimerEvent: {}
+[8.962743] (-) TimerEvent: {}
+[9.064420] (-) TimerEvent: {}
+[9.166167] (-) TimerEvent: {}
+[9.272856] (-) TimerEvent: {}
+[9.388727] (-) TimerEvent: {}
+[9.491228] (-) TimerEvent: {}
+[9.592625] (-) TimerEvent: {}
+[9.694309] (-) TimerEvent: {}
+[9.795796] (-) TimerEvent: {}
+[9.897212] (-) TimerEvent: {}
+[9.998637] (-) TimerEvent: {}
+[10.100057] (-) TimerEvent: {}
+[10.201452] (-) TimerEvent: {}
+[10.302859] (-) TimerEvent: {}
+[10.404376] (-) TimerEvent: {}
+[10.505771] (-) TimerEvent: {}
+[10.607071] (-) TimerEvent: {}
+[10.708397] (-) TimerEvent: {}
+[10.811468] (-) TimerEvent: {}
+[10.912948] (-) TimerEvent: {}
+[11.014383] (-) TimerEvent: {}
+[11.115800] (-) TimerEvent: {}
+[11.217248] (-) TimerEvent: {}
+[11.318757] (-) TimerEvent: {}
+[11.420184] (-) TimerEvent: {}
+[11.521566] (-) TimerEvent: {}
+[11.622931] (-) TimerEvent: {}
+[11.724286] (-) TimerEvent: {}
+[11.825617] (-) TimerEvent: {}
+[11.926931] (-) TimerEvent: {}
+[12.028233] (-) TimerEvent: {}
+[12.129547] (-) TimerEvent: {}
+[12.230896] (-) TimerEvent: {}
+[12.332257] (-) TimerEvent: {}
+[12.433739] (-) TimerEvent: {}
+[12.535245] (-) TimerEvent: {}
+[12.636765] (-) TimerEvent: {}
+[12.738228] (-) TimerEvent: {}
+[12.839665] (-) TimerEvent: {}
+[12.941084] (-) TimerEvent: {}
+[13.042542] (-) TimerEvent: {}
+[13.144247] (-) TimerEvent: {}
+[13.245832] (-) TimerEvent: {}
+[13.347221] (-) TimerEvent: {}
+[13.448637] (-) TimerEvent: {}
+[13.550104] (-) TimerEvent: {}
+[13.651509] (-) TimerEvent: {}
+[13.752921] (-) TimerEvent: {}
+[13.856523] (-) TimerEvent: {}
+[13.957988] (-) TimerEvent: {}
+[14.059432] (-) TimerEvent: {}
+[14.163464] (-) TimerEvent: {}
+[14.264834] (-) TimerEvent: {}
+[14.366246] (-) TimerEvent: {}
+[14.469235] (-) TimerEvent: {}
+[14.570709] (-) TimerEvent: {}
+[14.672170] (-) TimerEvent: {}
+[14.773653] (-) TimerEvent: {}
+[14.875083] (-) TimerEvent: {}
+[14.976474] (-) TimerEvent: {}
+[15.077963] (-) TimerEvent: {}
+[15.179400] (-) TimerEvent: {}
+[15.280787] (-) TimerEvent: {}
+[15.382196] (-) TimerEvent: {}
+[15.483583] (-) TimerEvent: {}
+[15.584948] (-) TimerEvent: {}
+[15.686348] (-) TimerEvent: {}
+[15.787936] (-) TimerEvent: {}
+[15.889654] (-) TimerEvent: {}
+[15.991288] (-) TimerEvent: {}
+[16.092981] (-) TimerEvent: {}
+[16.194700] (-) TimerEvent: {}
+[16.306761] (-) TimerEvent: {}
+[16.408560] (-) TimerEvent: {}
+[16.510035] (-) TimerEvent: {}
+[16.611289] (-) TimerEvent: {}
+[16.712657] (-) TimerEvent: {}
+[16.815819] (-) TimerEvent: {}
+[16.917901] (-) TimerEvent: {}
+[17.019274] (-) TimerEvent: {}
+[17.120617] (-) TimerEvent: {}
+[17.222006] (-) TimerEvent: {}
+[17.323424] (-) TimerEvent: {}
+[17.424868] (-) TimerEvent: {}
+[17.526294] (-) TimerEvent: {}
+[17.627654] (-) TimerEvent: {}
+[17.729005] (-) TimerEvent: {}
+[17.830378] (-) TimerEvent: {}
+[17.931776] (-) TimerEvent: {}
+[18.033118] (-) TimerEvent: {}
+[18.134498] (-) TimerEvent: {}
+[18.235840] (-) TimerEvent: {}
+[18.337331] (-) TimerEvent: {}
+[18.438847] (-) TimerEvent: {}
+[18.540366] (-) TimerEvent: {}
+[18.641746] (-) TimerEvent: {}
+[18.743060] (-) TimerEvent: {}
+[18.844374] (-) TimerEvent: {}
+[18.945735] (-) TimerEvent: {}
+[19.047062] (-) TimerEvent: {}
+[19.148439] (-) TimerEvent: {}
+[19.249830] (-) TimerEvent: {}
+[19.351327] (-) TimerEvent: {}
+[19.452833] (-) TimerEvent: {}
+[19.554254] (-) TimerEvent: {}
+[19.655645] (-) TimerEvent: {}
+[19.756997] (-) TimerEvent: {}
+[19.858420] (-) TimerEvent: {}
+[19.959792] (-) TimerEvent: {}
+[20.061193] (-) TimerEvent: {}
+[20.162657] (-) TimerEvent: {}
+[20.264047] (-) TimerEvent: {}
+[20.365481] (-) TimerEvent: {}
+[20.466852] (-) TimerEvent: {}
+[20.568218] (-) TimerEvent: {}
+[20.669677] (-) TimerEvent: {}
+[20.771082] (-) TimerEvent: {}
+[20.872471] (-) TimerEvent: {}
+[20.973964] (-) TimerEvent: {}
+[21.075341] (-) TimerEvent: {}
+[21.176701] (-) TimerEvent: {}
+[21.278144] (-) TimerEvent: {}
+[21.379533] (-) TimerEvent: {}
+[21.480871] (-) TimerEvent: {}
+[21.582334] (-) TimerEvent: {}
+[21.683827] (-) TimerEvent: {}
+[21.785451] (-) TimerEvent: {}
+[21.887200] (-) TimerEvent: {}
+[21.988866] (-) TimerEvent: {}
+[22.090330] (-) TimerEvent: {}
+[22.191770] (-) TimerEvent: {}
+[22.293222] (-) TimerEvent: {}
+[22.394711] (-) TimerEvent: {}
+[22.496143] (-) TimerEvent: {}
+[22.597634] (-) TimerEvent: {}
+[22.699082] (-) TimerEvent: {}
+[22.800635] (-) TimerEvent: {}
+[22.902251] (-) TimerEvent: {}
+[23.003859] (-) TimerEvent: {}
+[23.105524] (-) TimerEvent: {}
+[23.212084] (-) TimerEvent: {}
+[23.325536] (-) TimerEvent: {}
+[23.429081] (-) TimerEvent: {}
+[23.530939] (-) TimerEvent: {}
+[23.634974] (-) TimerEvent: {}
+[23.736388] (-) TimerEvent: {}
+[23.837893] (-) TimerEvent: {}
+[23.939369] (-) TimerEvent: {}
+[24.040890] (-) TimerEvent: {}
+[24.142422] (-) TimerEvent: {}
+[24.243961] (-) TimerEvent: {}
+[24.345447] (-) TimerEvent: {}
+[24.446833] (-) TimerEvent: {}
+[24.548245] (-) TimerEvent: {}
+[24.649711] (-) TimerEvent: {}
+[24.751199] (-) TimerEvent: {}
+[24.852670] (-) TimerEvent: {}
+[24.954150] (-) TimerEvent: {}
+[25.055535] (-) TimerEvent: {}
+[25.156931] (-) TimerEvent: {}
+[25.258488] (-) TimerEvent: {}
+[25.360000] (-) TimerEvent: {}
+[25.461731] (-) TimerEvent: {}
+[25.563341] (-) TimerEvent: {}
+[25.665131] (-) TimerEvent: {}
+[25.766756] (-) TimerEvent: {}
+[25.868302] (-) TimerEvent: {}
+[26.257514] (-) TimerEvent: {}
+[26.359025] (-) TimerEvent: {}
+[26.460694] (-) TimerEvent: {}
+[26.562209] (-) TimerEvent: {}
+[26.663694] (-) TimerEvent: {}
+[26.765117] (-) TimerEvent: {}
+[26.866656] (-) TimerEvent: {}
+[26.968212] (-) TimerEvent: {}
+[27.070024] (-) TimerEvent: {}
+[27.171462] (-) TimerEvent: {}
+[27.272977] (-) TimerEvent: {}
+[27.374626] (-) TimerEvent: {}
+[27.476186] (-) TimerEvent: {}
+[27.577761] (-) TimerEvent: {}
+[27.679298] (-) TimerEvent: {}
+[27.780779] (-) TimerEvent: {}
+[27.882393] (-) TimerEvent: {}
+[27.983862] (-) TimerEvent: {}
+[28.085478] (-) TimerEvent: {}
+[28.186961] (-) TimerEvent: {}
+[28.288444] (-) TimerEvent: {}
+[28.389990] (-) TimerEvent: {}
+[28.491463] (-) TimerEvent: {}
+[28.592980] (-) TimerEvent: {}
+[28.694520] (-) TimerEvent: {}
+[28.796002] (-) TimerEvent: {}
+[28.897646] (-) TimerEvent: {}
+[28.999149] (-) TimerEvent: {}
+[29.100635] (-) TimerEvent: {}
+[29.202189] (-) TimerEvent: {}
+[29.303726] (-) TimerEvent: {}
+[29.405256] (-) TimerEvent: {}
+[29.506772] (-) TimerEvent: {}
+[29.608315] (-) TimerEvent: {}
+[29.709789] (-) TimerEvent: {}
+[29.811395] (-) TimerEvent: {}
+[29.912868] (-) TimerEvent: {}
+[30.014431] (-) TimerEvent: {}
+[30.115843] (-) TimerEvent: {}
+[30.217367] (-) TimerEvent: {}
+[30.318945] (-) TimerEvent: {}
+[30.420520] (-) TimerEvent: {}
+[30.522077] (-) TimerEvent: {}
+[30.623570] (-) TimerEvent: {}
+[30.725112] (-) TimerEvent: {}
+[30.826748] (-) TimerEvent: {}
+[30.928227] (-) TimerEvent: {}
+[31.029791] (-) TimerEvent: {}
+[31.131331] (-) TimerEvent: {}
+[31.232886] (-) TimerEvent: {}
+[31.334452] (-) TimerEvent: {}
+[31.435994] (-) TimerEvent: {}
+[31.537550] (-) TimerEvent: {}
+[31.639006] (-) TimerEvent: {}
+[31.740525] (-) TimerEvent: {}
+[31.842120] (-) TimerEvent: {}
+[31.943608] (-) TimerEvent: {}
+[32.045090] (-) TimerEvent: {}
+[32.146543] (-) TimerEvent: {}
+[32.248003] (-) TimerEvent: {}
+[32.349560] (-) TimerEvent: {}
+[32.451191] (-) TimerEvent: {}
+[32.552805] (-) TimerEvent: {}
+[32.654331] (-) TimerEvent: {}
+[32.755825] (-) TimerEvent: {}
+[32.857505] (-) TimerEvent: {}
+[32.959051] (-) TimerEvent: {}
+[33.060676] (-) TimerEvent: {}
+[33.162180] (-) TimerEvent: {}
+[33.263637] (-) TimerEvent: {}
+[33.365259] (-) TimerEvent: {}
+[33.466834] (-) TimerEvent: {}
+[33.568489] (-) TimerEvent: {}
+[33.670004] (-) TimerEvent: {}
+[33.771464] (-) TimerEvent: {}
+[33.872917] (-) TimerEvent: {}
+[33.974446] (-) TimerEvent: {}
+[34.075853] (-) TimerEvent: {}
+[34.177388] (-) TimerEvent: {}
+[34.278950] (-) TimerEvent: {}
+[34.380487] (-) TimerEvent: {}
+[34.481998] (-) TimerEvent: {}
+[34.583487] (-) TimerEvent: {}
+[34.685234] (-) TimerEvent: {}
+[34.786738] (-) TimerEvent: {}
+[34.888203] (-) TimerEvent: {}
+[34.989605] (-) TimerEvent: {}
+[35.091087] (-) TimerEvent: {}
+[35.192607] (-) TimerEvent: {}
+[35.294189] (-) TimerEvent: {}
+[35.395838] (-) TimerEvent: {}
+[35.497426] (-) TimerEvent: {}
+[35.599023] (-) TimerEvent: {}
+[35.700915] (-) TimerEvent: {}
+[35.802830] (-) TimerEvent: {}
+[36.297967] (-) TimerEvent: {}
+[36.399417] (-) TimerEvent: {}
+[36.500877] (-) TimerEvent: {}
+[36.602414] (-) TimerEvent: {}
+[36.703838] (-) TimerEvent: {}
+[36.805184] (-) TimerEvent: {}
+[36.906685] (-) TimerEvent: {}
+[37.008128] (-) TimerEvent: {}
+[37.109610] (-) TimerEvent: {}
+[37.211033] (-) TimerEvent: {}
+[37.312468] (-) TimerEvent: {}
+[37.413934] (-) TimerEvent: {}
+[37.515667] (-) TimerEvent: {}
+[37.617428] (-) TimerEvent: {}
+[37.719141] (-) TimerEvent: {}
+[37.821037] (-) TimerEvent: {}
+[37.925663] (-) TimerEvent: {}
+[38.027325] (-) TimerEvent: {}
+[38.129149] (-) TimerEvent: {}
+[38.231213] (-) TimerEvent: {}
+[38.333519] (-) TimerEvent: {}
+[38.435571] (-) TimerEvent: {}
+[38.537408] (-) TimerEvent: {}
+[38.591448] (py_pubsub) Command: {'cmd': ['/usr/local/share/pynq-venv/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/xilinx/wrkspace/build/py_pubsub/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/py_pubsub', '--record', '/home/xilinx/wrkspace/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/xilinx', 'USER': 'xilinx', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/xilinx', 'OLDPWD': '/home/xilinx', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BOARD': 'Ultra96', 'RESIZED': '1', 'COLCON_PREFIX_PATH': '/home/xilinx/wrkspace/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'xilinx', '_': '/usr/local/share/pynq-venv/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': 'c14', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/home/xilinx/wrkspace/install/py_pubsub/bin:/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/xilinx/wrkspace/install/py_pubsub:/home/xilinx/wrkspace/install/my_package:/home/xilinx/wrkspace/install/got_coffe:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[38.638586] (-) TimerEvent: {}
+[38.647100] (my_package) Command: {'cmd': ['/usr/local/share/pynq-venv/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/xilinx/wrkspace/build/my_package/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/my_package', '--record', '/home/xilinx/wrkspace/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/xilinx', 'USER': 'xilinx', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/xilinx', 'OLDPWD': '/home/xilinx', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BOARD': 'Ultra96', 'RESIZED': '1', 'COLCON_PREFIX_PATH': '/home/xilinx/wrkspace/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'xilinx', '_': '/usr/local/share/pynq-venv/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': 'c14', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/home/xilinx/wrkspace/install/py_pubsub/bin:/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/xilinx/wrkspace/install/py_pubsub:/home/xilinx/wrkspace/install/my_package:/home/xilinx/wrkspace/install/got_coffe:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[38.719767] (got_coffe) Command: {'cmd': ['/usr/local/share/pynq-venv/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/got_coffe', 'build', '--build-base', '/home/xilinx/wrkspace/build/got_coffe/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/got_coffe', '--record', '/home/xilinx/wrkspace/build/got_coffe/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/got_coffe', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/xilinx', 'USER': 'xilinx', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/xilinx', 'OLDPWD': '/home/xilinx', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BOARD': 'Ultra96', 'RESIZED': '1', 'COLCON_PREFIX_PATH': '/home/xilinx/wrkspace/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'xilinx', '_': '/usr/local/share/pynq-venv/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': 'c14', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/home/xilinx/wrkspace/install/py_pubsub/bin:/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/xilinx/wrkspace/install/py_pubsub:/home/xilinx/wrkspace/install/my_package:/home/xilinx/wrkspace/install/got_coffe:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/got_coffe', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages:/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[38.739081] (-) TimerEvent: {}
+[38.841073] (-) TimerEvent: {}
+[38.942662] (-) TimerEvent: {}
+[39.044104] (-) TimerEvent: {}
+[39.145603] (-) TimerEvent: {}
+[39.247052] (-) TimerEvent: {}
+[39.348552] (-) TimerEvent: {}
+[39.450101] (-) TimerEvent: {}
+[39.551522] (-) TimerEvent: {}
+[39.652956] (-) TimerEvent: {}
+[39.754429] (-) TimerEvent: {}
+[39.855842] (-) TimerEvent: {}
+[39.957435] (-) TimerEvent: {}
+[40.058873] (-) TimerEvent: {}
+[40.160363] (-) TimerEvent: {}
+[40.261852] (-) TimerEvent: {}
+[40.363241] (-) TimerEvent: {}
+[40.464693] (-) TimerEvent: {}
+[40.566108] (-) TimerEvent: {}
+[40.667511] (-) TimerEvent: {}
+[40.768955] (-) TimerEvent: {}
+[40.870531] (-) TimerEvent: {}
+[40.972155] (-) TimerEvent: {}
+[41.440280] (my_package) StderrLine: {'line': b"/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/dist.py:767: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[41.442006] (-) TimerEvent: {}
+[41.443014] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[41.469084] (py_pubsub) StderrLine: {'line': b"/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/dist.py:767: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[41.470513] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[41.489071] (got_coffe) StderrLine: {'line': b"/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/dist.py:767: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[41.490677] (got_coffe) StderrLine: {'line': b'  warnings.warn(\n'}
+[41.542306] (-) TimerEvent: {}
+[41.643729] (-) TimerEvent: {}
+[41.745161] (-) TimerEvent: {}
+[41.846625] (-) TimerEvent: {}
+[41.948074] (-) TimerEvent: {}
+[42.049606] (-) TimerEvent: {}
+[42.151092] (-) TimerEvent: {}
+[42.252610] (-) TimerEvent: {}
+[42.354211] (-) TimerEvent: {}
+[42.455788] (-) TimerEvent: {}
+[42.557342] (-) TimerEvent: {}
+[42.658834] (-) TimerEvent: {}
+[42.760345] (-) TimerEvent: {}
+[42.861949] (-) TimerEvent: {}
+[42.963494] (-) TimerEvent: {}
+[43.065055] (-) TimerEvent: {}
+[43.166624] (-) TimerEvent: {}
+[43.268102] (-) TimerEvent: {}
+[43.369606] (-) TimerEvent: {}
+[43.471040] (-) TimerEvent: {}
+[43.572547] (-) TimerEvent: {}
+[43.674064] (-) TimerEvent: {}
+[43.775509] (-) TimerEvent: {}
+[43.876981] (-) TimerEvent: {}
+[43.978526] (-) TimerEvent: {}
+[44.080044] (-) TimerEvent: {}
+[44.181588] (-) TimerEvent: {}
+[44.283057] (-) TimerEvent: {}
+[44.384513] (-) TimerEvent: {}
+[44.486101] (-) TimerEvent: {}
+[44.587649] (-) TimerEvent: {}
+[44.689135] (-) TimerEvent: {}
+[44.790655] (-) TimerEvent: {}
+[44.892140] (-) TimerEvent: {}
+[44.993686] (-) TimerEvent: {}
+[45.095240] (-) TimerEvent: {}
+[45.196773] (-) TimerEvent: {}
+[45.298373] (-) TimerEvent: {}
+[45.399966] (-) TimerEvent: {}
+[45.501586] (-) TimerEvent: {}
+[45.603060] (-) TimerEvent: {}
+[45.704578] (-) TimerEvent: {}
+[45.806190] (-) TimerEvent: {}
+[45.907755] (-) TimerEvent: {}
+[46.009347] (-) TimerEvent: {}
+[46.110876] (-) TimerEvent: {}
+[46.212424] (-) TimerEvent: {}
+[46.314039] (-) TimerEvent: {}
+[46.415553] (-) TimerEvent: {}
+[46.517081] (-) TimerEvent: {}
+[46.618630] (-) TimerEvent: {}
+[46.720192] (-) TimerEvent: {}
+[46.821838] (-) TimerEvent: {}
+[46.923380] (-) TimerEvent: {}
+[47.024937] (-) TimerEvent: {}
+[47.126501] (-) TimerEvent: {}
+[47.228034] (-) TimerEvent: {}
+[47.329563] (-) TimerEvent: {}
+[47.433220] (-) TimerEvent: {}
+[47.534888] (-) TimerEvent: {}
+[47.636446] (-) TimerEvent: {}
+[47.738101] (-) TimerEvent: {}
+[47.839602] (-) TimerEvent: {}
+[47.941157] (-) TimerEvent: {}
+[48.042774] (-) TimerEvent: {}
+[48.144264] (-) TimerEvent: {}
+[48.245919] (-) TimerEvent: {}
+[48.349552] (-) TimerEvent: {}
+[48.411432] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[48.449796] (-) TimerEvent: {}
+[48.497516] (got_coffe) StdoutLine: {'line': b'running egg_info\n'}
+[48.510174] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[48.550050] (-) TimerEvent: {}
+[48.655096] (-) TimerEvent: {}
+[48.756663] (-) TimerEvent: {}
+[48.858338] (-) TimerEvent: {}
+[48.959983] (-) TimerEvent: {}
+[49.061679] (-) TimerEvent: {}
+[49.163348] (-) TimerEvent: {}
+[49.164982] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[49.244624] (got_coffe) StdoutLine: {'line': b'writing ../../build/got_coffe/got_coffe.egg-info/PKG-INFO\n'}
+[49.250801] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[49.263582] (-) TimerEvent: {}
+[49.367541] (-) TimerEvent: {}
+[49.469047] (-) TimerEvent: {}
+[49.570614] (-) TimerEvent: {}
+[49.672195] (-) TimerEvent: {}
+[49.773933] (-) TimerEvent: {}
+[49.790096] (got_coffe) StdoutLine: {'line': b'writing dependency_links to ../../build/got_coffe/got_coffe.egg-info/dependency_links.txt\n'}
+[49.800165] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[49.876537] (-) TimerEvent: {}
+[49.978208] (-) TimerEvent: {}
+[50.079808] (-) TimerEvent: {}
+[50.181355] (-) TimerEvent: {}
+[50.251814] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[50.281607] (-) TimerEvent: {}
+[50.385980] (-) TimerEvent: {}
+[50.487561] (-) TimerEvent: {}
+[50.589164] (-) TimerEvent: {}
+[50.690947] (-) TimerEvent: {}
+[50.792554] (-) TimerEvent: {}
+[50.894185] (-) TimerEvent: {}
+[50.995668] (-) TimerEvent: {}
+[51.097223] (-) TimerEvent: {}
+[51.198804] (-) TimerEvent: {}
+[51.300443] (-) TimerEvent: {}
+[51.402185] (-) TimerEvent: {}
+[51.504149] (-) TimerEvent: {}
+[51.605888] (-) TimerEvent: {}
+[51.699841] (got_coffe) StdoutLine: {'line': b'writing entry points to ../../build/got_coffe/got_coffe.egg-info/entry_points.txt\n'}
+[51.703398] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[51.706090] (-) TimerEvent: {}
+[51.807396] (-) TimerEvent: {}
+[51.908881] (-) TimerEvent: {}
+[52.010485] (-) TimerEvent: {}
+[52.114880] (-) TimerEvent: {}
+[52.156624] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[52.215156] (-) TimerEvent: {}
+[52.316773] (-) TimerEvent: {}
+[52.418433] (-) TimerEvent: {}
+[52.520086] (-) TimerEvent: {}
+[52.621757] (-) TimerEvent: {}
+[52.723411] (-) TimerEvent: {}
+[52.825088] (-) TimerEvent: {}
+[52.897776] (got_coffe) StdoutLine: {'line': b'writing requirements to ../../build/got_coffe/got_coffe.egg-info/requires.txt\n'}
+[52.904130] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[52.925458] (-) TimerEvent: {}
+[53.030586] (-) TimerEvent: {}
+[53.132039] (-) TimerEvent: {}
+[53.233601] (-) TimerEvent: {}
+[53.337167] (-) TimerEvent: {}
+[53.341084] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[53.437546] (-) TimerEvent: {}
+[53.496600] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[53.504828] (got_coffe) StdoutLine: {'line': b'writing top-level names to ../../build/got_coffe/got_coffe.egg-info/top_level.txt\n'}
+[53.537797] (-) TimerEvent: {}
+[53.639325] (-) TimerEvent: {}
+[53.740858] (-) TimerEvent: {}
+[53.842451] (-) TimerEvent: {}
+[53.936980] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[53.942697] (-) TimerEvent: {}
+[54.044175] (-) TimerEvent: {}
+[54.145688] (-) TimerEvent: {}
+[54.247310] (-) TimerEvent: {}
+[54.348858] (-) TimerEvent: {}
+[54.401772] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[54.409619] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[54.411326] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[54.412356] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[54.414691] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[54.416281] (py_pubsub) StderrLine: {'line': b'/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[54.417269] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[54.441890] (got_coffe) StdoutLine: {'line': b"reading manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[54.449118] (-) TimerEvent: {}
+[54.453633] (got_coffe) StdoutLine: {'line': b"writing manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[54.454912] (got_coffe) StdoutLine: {'line': b'running build\n'}
+[54.455829] (got_coffe) StdoutLine: {'line': b'running build_py\n'}
+[54.456957] (got_coffe) StdoutLine: {'line': b'running install\n'}
+[54.458339] (got_coffe) StderrLine: {'line': b'/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[54.459151] (got_coffe) StderrLine: {'line': b'  warnings.warn(\n'}
+[54.482439] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[54.522712] (got_coffe) StdoutLine: {'line': b'running install_lib\n'}
+[54.549498] (-) TimerEvent: {}
+[54.654676] (-) TimerEvent: {}
+[54.759824] (-) TimerEvent: {}
+[54.860336] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[54.861596] (-) TimerEvent: {}
+[54.870904] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[54.876830] (my_package) StdoutLine: {'line': b'running build\n'}
+[54.878433] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[54.879782] (my_package) StdoutLine: {'line': b'running install\n'}
+[54.880981] (my_package) StderrLine: {'line': b'/usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[54.881987] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[54.944363] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[54.961879] (-) TimerEvent: {}
+[55.066951] (-) TimerEvent: {}
+[55.172060] (-) TimerEvent: {}
+[55.240014] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[55.272321] (-) TimerEvent: {}
+[55.293819] (got_coffe) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py to nn_pub.cpython-38.pyc\n'}
+[55.295765] (got_coffe) StderrLine: {'line': b'  File "/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py", line 4\n'}
+[55.296873] (got_coffe) StderrLine: {'line': b'    from DPU-PYNQ.pynq_dpu import DpuOverlay\n'}
+[55.298009] (got_coffe) StderrLine: {'line': b'            ^\n'}
+[55.299020] (got_coffe) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[55.299929] (got_coffe) StderrLine: {'line': b'\n'}
+[55.300809] (got_coffe) StdoutLine: {'line': b'running install_data\n'}
+[55.376916] (-) TimerEvent: {}
+[55.395466] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[55.448572] (got_coffe) StdoutLine: {'line': b'running install_egg_info\n'}
+[55.477199] (-) TimerEvent: {}
+[55.582244] (-) TimerEvent: {}
+[55.687001] (-) TimerEvent: {}
+[55.713438] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[55.787290] (-) TimerEvent: {}
+[55.871403] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[55.887544] (-) TimerEvent: {}
+[55.992593] (-) TimerEvent: {}
+[56.097952] (-) TimerEvent: {}
+[56.158215] (py_pubsub) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[56.160405] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[56.166888] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[56.198208] (-) TimerEvent: {}
+[56.220497] (got_coffe) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[56.222621] (got_coffe) StdoutLine: {'line': b'Copying ../../build/got_coffe/got_coffe.egg-info to /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info\n'}
+[56.228998] (got_coffe) StdoutLine: {'line': b'running install_scripts\n'}
+[56.298487] (-) TimerEvent: {}
+[56.404091] (-) TimerEvent: {}
+[56.509086] (-) TimerEvent: {}
+[56.615558] (-) TimerEvent: {}
+[56.639830] (my_package) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[56.641963] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[56.651537] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[56.715860] (-) TimerEvent: {}
+[56.821019] (-) TimerEvent: {}
+[56.926007] (-) TimerEvent: {}
+[57.027721] (-) TimerEvent: {}
+[57.129427] (-) TimerEvent: {}
+[57.231019] (-) TimerEvent: {}
+[57.332604] (-) TimerEvent: {}
+[57.434301] (-) TimerEvent: {}
+[57.535873] (-) TimerEvent: {}
+[57.637557] (-) TimerEvent: {}
+[57.648935] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/py_pubsub/bin\n'}
+[57.650710] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/py_pubsub/bin\n'}
+[57.653727] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/py_pubsub/install.log'\n"}
+[57.706942] (got_coffe) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/got_coffe/bin\n'}
+[57.708709] (got_coffe) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/got_coffe/bin\n'}
+[57.711433] (got_coffe) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/got_coffe/install.log'\n"}
+[57.737956] (-) TimerEvent: {}
+[57.843587] (-) TimerEvent: {}
+[57.947839] (-) TimerEvent: {}
+[58.049698] (-) TimerEvent: {}
+[58.151430] (-) TimerEvent: {}
+[58.153427] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/xilinx/wrkspace/install/my_package/bin\n'}
+[58.156626] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/my_package/install.log'\n"}
+[58.174421] (py_pubsub) CommandEnded: {'returncode': 0}
+[58.256868] (-) TimerEvent: {}
+[58.367987] (-) TimerEvent: {}
+[58.476492] (-) TimerEvent: {}
+[58.593818] (-) TimerEvent: {}
+[58.624080] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[58.691707] (got_coffe) CommandEnded: {'returncode': 0}
+[58.710534] (-) TimerEvent: {}
+[58.811571] (-) TimerEvent: {}
+[58.912700] (-) TimerEvent: {}
+[59.013873] (-) TimerEvent: {}
+[59.120095] (-) TimerEvent: {}
+[59.241590] (-) TimerEvent: {}
+[59.353126] (got_coffe) JobEnded: {'identifier': 'got_coffe', 'rc': 0}
+[59.430693] (-) TimerEvent: {}
+[59.436150] (my_package) CommandEnded: {'returncode': 0}
+[59.530843] (-) TimerEvent: {}
+[59.631785] (-) TimerEvent: {}
+[59.733130] (-) TimerEvent: {}
+[59.834412] (-) TimerEvent: {}
+[59.940622] (-) TimerEvent: {}
+[60.052461] (-) TimerEvent: {}
+[60.154177] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[60.159316] (-) TimerEvent: {}
+[60.159978] (-) EventReactorShutdown: {}

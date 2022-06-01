@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/SimpleArmMission.py", line 28
+    else if((msg.data.find("missile") == 0) & (self.armed == True)):
+         ^
+SyntaxError: invalid syntax
+

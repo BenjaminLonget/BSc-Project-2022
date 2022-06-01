@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py", line 60
+    self.avg += (end-start)*1000]
+                                ^
+SyntaxError: unmatched ']'
+

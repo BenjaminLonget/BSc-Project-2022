@@ -1,0 +1,26 @@
+[4.656s] Invoking command in '/home/xilinx/wrkspace/src/nn_drone_final': PYTHONPATH=/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_drone_final build --build-base /home/xilinx/wrkspace/build/nn_drone_final/build install --prefix /home/xilinx/wrkspace/install/nn_drone_final --record /home/xilinx/wrkspace/build/nn_drone_final/install.log --single-version-externally-managed
+[6.179s] running egg_info
+[6.183s] writing ../../build/nn_drone_final/nn_drone_final.egg-info/PKG-INFO
+[6.184s] writing dependency_links to ../../build/nn_drone_final/nn_drone_final.egg-info/dependency_links.txt
+[6.185s] writing entry points to ../../build/nn_drone_final/nn_drone_final.egg-info/entry_points.txt
+[6.186s] writing requirements to ../../build/nn_drone_final/nn_drone_final.egg-info/requires.txt
+[6.187s] writing top-level names to ../../build/nn_drone_final/nn_drone_final.egg-info/top_level.txt
+[6.447s] reading manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'
+[6.454s] writing manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'
+[6.455s] running build
+[6.455s] running build_py
+[6.456s] copying nn_drone_final/cam_node.py -> /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final
+[6.458s] running install
+[6.464s] running install_lib
+[6.471s] copying /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final/cam_node.py -> /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final
+[6.475s] byte-compiling /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/cam_node.py to cam_node.cpython-38.pyc
+[6.489s] running install_data
+[6.495s] running install_egg_info
+[6.504s] removing '/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info' (and everything under it)
+[6.506s] Copying ../../build/nn_drone_final/nn_drone_final.egg-info to /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info
+[6.510s] running install_scripts
+[7.191s] Installing cam_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+[7.194s] Installing nn_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+[7.195s] Installing nn_sub_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+[7.196s] writing list of installed files to '/home/xilinx/wrkspace/build/nn_drone_final/install.log'
+[7.463s] Invoked command in '/home/xilinx/wrkspace/src/nn_drone_final' returned '0': PYTHONPATH=/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_drone_final build --build-base /home/xilinx/wrkspace/build/nn_drone_final/build install --prefix /home/xilinx/wrkspace/install/nn_drone_final --record /home/xilinx/wrkspace/build/nn_drone_final/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/SimpleArmMission.py", line 10
+    global armed = False
+                 ^
+SyntaxError: invalid syntax
+

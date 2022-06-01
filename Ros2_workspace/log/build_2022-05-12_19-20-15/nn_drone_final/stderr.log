@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/nn_node.py", line 93
+    time1() = time.time()
+    ^
+SyntaxError: cannot assign to function call
+

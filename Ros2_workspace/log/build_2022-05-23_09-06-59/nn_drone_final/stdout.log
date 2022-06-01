@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/nn_drone_final/nn_drone_final.egg-info/PKG-INFO
+writing dependency_links to ../../build/nn_drone_final/nn_drone_final.egg-info/dependency_links.txt
+writing entry points to ../../build/nn_drone_final/nn_drone_final.egg-info/entry_points.txt
+writing requirements to ../../build/nn_drone_final/nn_drone_final.egg-info/requires.txt
+writing top-level names to ../../build/nn_drone_final/nn_drone_final.egg-info/top_level.txt
+reading manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'
+writing manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nn_drone_final/nn_node.py -> /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final
+copying nn_drone_final/cam_node.py -> /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final
+running install
+running install_lib
+copying /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final/nn_node.py -> /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final
+copying /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final/cam_node.py -> /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final
+byte-compiling /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/nn_node.py to nn_node.cpython-38.pyc
+byte-compiling /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/cam_node.py to cam_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/nn_drone_final/nn_drone_final.egg-info to /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info
+running install_scripts
+Installing arm script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+Installing cam_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+Installing nn_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+Installing nn_sub_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final
+writing list of installed files to '/home/xilinx/wrkspace/build/nn_drone_final/install.log'

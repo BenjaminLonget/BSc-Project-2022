@@ -1,0 +1,25 @@
+[4.657s] Invoking command in '/home/xilinx/wrkspace/src/py_pubsub': PYTHONPATH=/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/xilinx/wrkspace/build/py_pubsub/build install --prefix /home/xilinx/wrkspace/install/py_pubsub --record /home/xilinx/wrkspace/build/py_pubsub/install.log --single-version-externally-managed
+[6.174s] running egg_info
+[6.178s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[6.180s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[6.181s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[6.182s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[6.183s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.451s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.457s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.458s] running build
+[6.459s] running build_py
+[6.459s] copying py_pubsub/subscriber_member_function.py -> /home/xilinx/wrkspace/build/py_pubsub/build/lib/py_pubsub
+[6.461s] running install
+[6.467s] running install_lib
+[6.474s] copying /home/xilinx/wrkspace/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[6.478s] byte-compiling /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[6.491s] running install_data
+[6.495s] running install_egg_info
+[6.507s] removing '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[6.508s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[6.512s] running install_scripts
+[6.633s] Installing listener script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub
+[6.635s] Installing talker script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub
+[6.637s] writing list of installed files to '/home/xilinx/wrkspace/build/py_pubsub/install.log'
+[6.895s] Invoked command in '/home/xilinx/wrkspace/src/py_pubsub' returned '0': PYTHONPATH=/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/xilinx/wrkspace/build/py_pubsub/build install --prefix /home/xilinx/wrkspace/install/py_pubsub --record /home/xilinx/wrkspace/build/py_pubsub/install.log --single-version-externally-managed

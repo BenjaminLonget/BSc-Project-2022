@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.004135] (-) JobUnselected: {'identifier': 'my_package'}
+[0.006602] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.006926] (got_coffe) JobQueued: {'identifier': 'got_coffe', 'dependencies': OrderedDict()}
+[0.007137] (got_coffe) JobStarted: {'identifier': 'got_coffe'}
+[0.098275] (-) TimerEvent: {}
+[0.200019] (-) TimerEvent: {}
+[0.301248] (-) TimerEvent: {}
+[0.402487] (-) TimerEvent: {}
+[0.503762] (-) TimerEvent: {}
+[0.604938] (-) TimerEvent: {}
+[0.706142] (-) TimerEvent: {}
+[0.807367] (-) TimerEvent: {}
+[0.908622] (-) TimerEvent: {}
+[1.009811] (-) TimerEvent: {}
+[1.110997] (-) TimerEvent: {}
+[1.212284] (-) TimerEvent: {}
+[1.313609] (-) TimerEvent: {}
+[1.414954] (-) TimerEvent: {}
+[1.516306] (-) TimerEvent: {}
+[1.617717] (-) TimerEvent: {}
+[1.719400] (-) TimerEvent: {}
+[1.820957] (-) TimerEvent: {}
+[1.922385] (-) TimerEvent: {}
+[2.023743] (-) TimerEvent: {}
+[2.125113] (-) TimerEvent: {}
+[2.226387] (-) TimerEvent: {}
+[2.327646] (-) TimerEvent: {}
+[2.428906] (-) TimerEvent: {}
+[2.530167] (-) TimerEvent: {}
+[2.631480] (-) TimerEvent: {}
+[2.732727] (-) TimerEvent: {}
+[2.833935] (-) TimerEvent: {}
+[2.935215] (-) TimerEvent: {}
+[3.036482] (-) TimerEvent: {}
+[3.137752] (-) TimerEvent: {}
+[3.239104] (-) TimerEvent: {}
+[3.340291] (-) TimerEvent: {}
+[3.441516] (-) TimerEvent: {}
+[3.542776] (-) TimerEvent: {}
+[3.644051] (-) TimerEvent: {}
+[3.745282] (-) TimerEvent: {}
+[3.846604] (-) TimerEvent: {}
+[3.947944] (-) TimerEvent: {}
+[4.049882] (-) TimerEvent: {}
+[4.548795] (-) TimerEvent: {}
+[4.650275] (-) TimerEvent: {}
+[4.660787] (got_coffe) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/got_coffe', 'build', '--build-base', '/home/xilinx/wrkspace/build/got_coffe/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/got_coffe', '--record', '/home/xilinx/wrkspace/build/got_coffe/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/got_coffe', 'env': {'SUDO_GID': '0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'BOARD': 'Ultra96', 'RESIZED': '1', 'SUDO_UID': '0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/opt/ros/foxy/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/xilinx/wrkspace/build/got_coffe', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.750620] (-) TimerEvent: {}
+[4.852122] (-) TimerEvent: {}
+[4.953343] (-) TimerEvent: {}
+[5.054567] (-) TimerEvent: {}
+[5.155883] (-) TimerEvent: {}
+[5.257212] (-) TimerEvent: {}
+[5.358423] (-) TimerEvent: {}
+[5.459724] (-) TimerEvent: {}
+[5.560975] (-) TimerEvent: {}
+[5.662214] (-) TimerEvent: {}
+[5.763454] (-) TimerEvent: {}
+[5.864703] (-) TimerEvent: {}
+[5.965994] (-) TimerEvent: {}
+[6.067239] (-) TimerEvent: {}
+[6.168485] (-) TimerEvent: {}
+[6.176465] (got_coffe) StdoutLine: {'line': b'running egg_info\n'}
+[6.181086] (got_coffe) StdoutLine: {'line': b'writing ../../build/got_coffe/got_coffe.egg-info/PKG-INFO\n'}
+[6.182756] (got_coffe) StdoutLine: {'line': b'writing dependency_links to ../../build/got_coffe/got_coffe.egg-info/dependency_links.txt\n'}
+[6.183898] (got_coffe) StdoutLine: {'line': b'writing entry points to ../../build/got_coffe/got_coffe.egg-info/entry_points.txt\n'}
+[6.185068] (got_coffe) StdoutLine: {'line': b'writing requirements to ../../build/got_coffe/got_coffe.egg-info/requires.txt\n'}
+[6.185880] (got_coffe) StdoutLine: {'line': b'writing top-level names to ../../build/got_coffe/got_coffe.egg-info/top_level.txt\n'}
+[6.268718] (-) TimerEvent: {}
+[6.370086] (-) TimerEvent: {}
+[6.445484] (got_coffe) StdoutLine: {'line': b"reading manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[6.451818] (got_coffe) StdoutLine: {'line': b"writing manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[6.453039] (got_coffe) StdoutLine: {'line': b'running build\n'}
+[6.453665] (got_coffe) StdoutLine: {'line': b'running build_py\n'}
+[6.454394] (got_coffe) StdoutLine: {'line': b'copying got_coffe/nn_pub.py -> /home/xilinx/wrkspace/build/got_coffe/build/lib/got_coffe\n'}
+[6.455837] (got_coffe) StdoutLine: {'line': b'running install\n'}
+[6.461577] (got_coffe) StdoutLine: {'line': b'running install_lib\n'}
+[6.468454] (got_coffe) StdoutLine: {'line': b'copying /home/xilinx/wrkspace/build/got_coffe/build/lib/got_coffe/nn_pub.py -> /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe\n'}
+[6.470183] (-) TimerEvent: {}
+[6.472494] (got_coffe) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py to nn_pub.cpython-38.pyc\n'}
+[6.488983] (got_coffe) StdoutLine: {'line': b'running install_data\n'}
+[6.493078] (got_coffe) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.502808] (got_coffe) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.504576] (got_coffe) StdoutLine: {'line': b'Copying ../../build/got_coffe/got_coffe.egg-info to /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info\n'}
+[6.509131] (got_coffe) StdoutLine: {'line': b'running install_scripts\n'}
+[6.570433] (-) TimerEvent: {}
+[6.630247] (got_coffe) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe\n'}
+[6.631672] (got_coffe) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe\n'}
+[6.633264] (got_coffe) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/got_coffe/install.log'\n"}
+[6.670743] (-) TimerEvent: {}
+[6.772339] (-) TimerEvent: {}
+[6.873993] (-) TimerEvent: {}
+[6.891132] (got_coffe) CommandEnded: {'returncode': 0}
+[6.974319] (-) TimerEvent: {}
+[7.000403] (got_coffe) JobEnded: {'identifier': 'got_coffe', 'rc': 0}
+[7.005370] (-) EventReactorShutdown: {}

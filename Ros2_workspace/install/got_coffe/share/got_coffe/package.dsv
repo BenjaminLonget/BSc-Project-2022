@@ -1,0 +1,12 @@
+source;share/got_coffe/hook/path.ps1
+source;share/got_coffe/hook/path.dsv
+source;share/got_coffe/hook/path.sh
+source;share/got_coffe/hook/pythonpath.ps1
+source;share/got_coffe/hook/pythonpath.dsv
+source;share/got_coffe/hook/pythonpath.sh
+source;share/got_coffe/hook/pythonscriptspath.ps1
+source;share/got_coffe/hook/pythonscriptspath.dsv
+source;share/got_coffe/hook/pythonscriptspath.sh
+source;share/got_coffe/hook/ament_prefix_path.ps1
+source;share/got_coffe/hook/ament_prefix_path.dsv
+source;share/got_coffe/hook/ament_prefix_path.sh

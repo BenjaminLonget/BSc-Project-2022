@@ -1,0 +1,25 @@
+[4.662s] Invoking command in '/home/xilinx/wrkspace/src/got_coffe': PYTHONPATH=/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/got_coffe build --build-base /home/xilinx/wrkspace/build/got_coffe/build install --prefix /home/xilinx/wrkspace/install/got_coffe --record /home/xilinx/wrkspace/build/got_coffe/install.log --single-version-externally-managed
+[6.167s] running egg_info
+[6.171s] writing ../../build/got_coffe/got_coffe.egg-info/PKG-INFO
+[7.012s] writing dependency_links to ../../build/got_coffe/got_coffe.egg-info/dependency_links.txt
+[7.013s] writing entry points to ../../build/got_coffe/got_coffe.egg-info/entry_points.txt
+[7.015s] writing requirements to ../../build/got_coffe/got_coffe.egg-info/requires.txt
+[7.016s] writing top-level names to ../../build/got_coffe/got_coffe.egg-info/top_level.txt
+[7.273s] reading manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'
+[7.280s] writing manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'
+[7.280s] running build
+[7.281s] running build_py
+[7.282s] copying got_coffe/nn_pub.py -> /home/xilinx/wrkspace/build/got_coffe/build/lib/got_coffe
+[7.283s] running install
+[7.289s] running install_lib
+[7.296s] copying /home/xilinx/wrkspace/build/got_coffe/build/lib/got_coffe/nn_pub.py -> /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe
+[7.300s] byte-compiling /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py to nn_pub.cpython-38.pyc
+[7.316s] running install_data
+[7.320s] running install_egg_info
+[7.330s] removing '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info' (and everything under it)
+[7.332s] Copying ../../build/got_coffe/got_coffe.egg-info to /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info
+[7.336s] running install_scripts
+[7.457s] Installing listener script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe
+[7.458s] Installing talker script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe
+[7.460s] writing list of installed files to '/home/xilinx/wrkspace/build/got_coffe/install.log'
+[7.720s] Invoked command in '/home/xilinx/wrkspace/src/got_coffe' returned '0': PYTHONPATH=/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/got_coffe build --build-base /home/xilinx/wrkspace/build/got_coffe/build install --prefix /home/xilinx/wrkspace/install/got_coffe --record /home/xilinx/wrkspace/build/got_coffe/install.log --single-version-externally-managed

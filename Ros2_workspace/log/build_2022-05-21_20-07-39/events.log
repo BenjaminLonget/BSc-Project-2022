@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001774] (-) JobUnselected: {'identifier': 'got_coffe'}
+[0.002457] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003745] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004829] (nn_drone_final) JobQueued: {'identifier': 'nn_drone_final', 'dependencies': OrderedDict()}
+[0.010191] (nn_drone_final) JobStarted: {'identifier': 'nn_drone_final'}
+[0.098144] (-) TimerEvent: {}
+[0.139688] (nn_drone_final) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/local/share/pynq-venv/lib/python3.8/site-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/local/share/pynq-venv/lib/python3.8/site-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 40, in build\n    additional_hooks = create_environment_hook(\n  File "/usr/local/share/pynq-venv/lib/python3.8/site-packages/colcon_core/shell/__init__.py", line 436, in create_environment_hook\n    raise RuntimeError(\nRuntimeError: Could not find a primary shell extension for creating an environment hook\n'}
+[0.142353] (nn_drone_final) JobEnded: {'identifier': 'nn_drone_final', 'rc': 1}
+[0.152368] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[console_scripts]
+arm = nn_drone_final.SimpleArmMission:main
+cam_node = nn_drone_final.cam_node:main
+nn_node = nn_drone_final.nn_node:main
+nn_sub_node = nn_drone_final.nn_sub:main
+

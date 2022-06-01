@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001726] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003259] (-) JobUnselected: {'identifier': 'nn_drone_final'}
+[0.004412] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.006803] (got_coffe) JobQueued: {'identifier': 'got_coffe', 'dependencies': OrderedDict()}
+[0.007123] (got_coffe) JobStarted: {'identifier': 'got_coffe'}
+[0.098284] (-) TimerEvent: {}
+[0.199944] (-) TimerEvent: {}
+[0.301190] (-) TimerEvent: {}
+[0.402538] (-) TimerEvent: {}
+[0.503845] (-) TimerEvent: {}
+[0.605058] (-) TimerEvent: {}
+[0.706375] (-) TimerEvent: {}
+[0.807703] (-) TimerEvent: {}
+[0.909139] (-) TimerEvent: {}
+[1.010459] (-) TimerEvent: {}
+[1.111696] (-) TimerEvent: {}
+[1.212976] (-) TimerEvent: {}
+[1.314219] (-) TimerEvent: {}
+[1.415524] (-) TimerEvent: {}
+[1.516906] (-) TimerEvent: {}
+[1.618297] (-) TimerEvent: {}
+[1.719847] (-) TimerEvent: {}
+[1.821521] (-) TimerEvent: {}
+[1.923069] (-) TimerEvent: {}
+[2.024290] (-) TimerEvent: {}
+[2.125579] (-) TimerEvent: {}
+[2.226918] (-) TimerEvent: {}
+[2.328173] (-) TimerEvent: {}
+[2.429488] (-) TimerEvent: {}
+[2.530778] (-) TimerEvent: {}
+[2.632080] (-) TimerEvent: {}
+[2.733369] (-) TimerEvent: {}
+[2.834641] (-) TimerEvent: {}
+[2.935914] (-) TimerEvent: {}
+[3.037214] (-) TimerEvent: {}
+[3.138582] (-) TimerEvent: {}
+[3.239898] (-) TimerEvent: {}
+[3.341222] (-) TimerEvent: {}
+[3.442536] (-) TimerEvent: {}
+[3.543824] (-) TimerEvent: {}
+[3.645102] (-) TimerEvent: {}
+[3.746474] (-) TimerEvent: {}
+[3.847946] (-) TimerEvent: {}
+[3.949306] (-) TimerEvent: {}
+[4.050702] (-) TimerEvent: {}
+[4.152059] (-) TimerEvent: {}
+[4.253320] (-) TimerEvent: {}
+[4.354872] (-) TimerEvent: {}
+[4.456423] (-) TimerEvent: {}
+[4.557994] (-) TimerEvent: {}
+[4.659606] (-) TimerEvent: {}
+[4.699774] (got_coffe) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/got_coffe', 'build', '--build-base', '/home/xilinx/wrkspace/build/got_coffe/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/got_coffe', '--record', '/home/xilinx/wrkspace/build/got_coffe/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/got_coffe', 'env': {'SUDO_GID': '0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xilinx/px4_ros_com_ros2/install/px4_ros_com/lib:/home/xilinx/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'BOARD': 'Ultra96', 'RESIZED': '1', 'COLCON_PREFIX_PATH': '/home/xilinx/px4_ros_com_ros2/install', 'SUDO_UID': '0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/home/xilinx/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/xilinx/px4_ros_com_ros2/install/px4_ros_com:/home/xilinx/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/xilinx/wrkspace/build/got_coffe', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:/home/xilinx/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/xilinx/px4_ros_com_ros2/install/px4_ros_com:/home/xilinx/px4_ros_com_ros2/install/px4_msgs'}, 'shell': False}
+[4.759925] (-) TimerEvent: {}
+[4.861438] (-) TimerEvent: {}
+[4.962772] (-) TimerEvent: {}
+[5.064248] (-) TimerEvent: {}
+[5.165564] (-) TimerEvent: {}
+[5.266846] (-) TimerEvent: {}
+[5.368118] (-) TimerEvent: {}
+[5.469465] (-) TimerEvent: {}
+[5.570829] (-) TimerEvent: {}
+[5.672093] (-) TimerEvent: {}
+[5.773329] (-) TimerEvent: {}
+[5.874679] (-) TimerEvent: {}
+[5.975956] (-) TimerEvent: {}
+[6.077237] (-) TimerEvent: {}
+[6.178584] (-) TimerEvent: {}
+[6.234560] (got_coffe) StdoutLine: {'line': b'running egg_info\n'}
+[6.239150] (got_coffe) StdoutLine: {'line': b'writing ../../build/got_coffe/got_coffe.egg-info/PKG-INFO\n'}
+[6.240737] (got_coffe) StdoutLine: {'line': b'writing dependency_links to ../../build/got_coffe/got_coffe.egg-info/dependency_links.txt\n'}
+[6.241769] (got_coffe) StdoutLine: {'line': b'writing entry points to ../../build/got_coffe/got_coffe.egg-info/entry_points.txt\n'}
+[6.242715] (got_coffe) StdoutLine: {'line': b'writing requirements to ../../build/got_coffe/got_coffe.egg-info/requires.txt\n'}
+[6.243545] (got_coffe) StdoutLine: {'line': b'writing top-level names to ../../build/got_coffe/got_coffe.egg-info/top_level.txt\n'}
+[6.278840] (-) TimerEvent: {}
+[6.380180] (-) TimerEvent: {}
+[6.481643] (-) TimerEvent: {}
+[6.504329] (got_coffe) StdoutLine: {'line': b"reading manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[6.510741] (got_coffe) StdoutLine: {'line': b"writing manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'\n"}
+[6.511996] (got_coffe) StdoutLine: {'line': b'running build\n'}
+[6.512623] (got_coffe) StdoutLine: {'line': b'running build_py\n'}
+[6.514312] (got_coffe) StdoutLine: {'line': b'running install\n'}
+[6.520426] (got_coffe) StdoutLine: {'line': b'running install_lib\n'}
+[6.530073] (got_coffe) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py to nn_pub.cpython-38.pyc\n'}
+[6.541226] (got_coffe) StderrLine: {'line': b'  File "/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py", line 111\n'}
+[6.542484] (got_coffe) StderrLine: {'line': b'    def main(args=None):\n'}
+[6.543079] (got_coffe) StderrLine: {'line': b'    ^\n'}
+[6.543603] (got_coffe) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[6.544121] (got_coffe) StderrLine: {'line': b'\n'}
+[6.544639] (got_coffe) StdoutLine: {'line': b'running install_data\n'}
+[6.545580] (got_coffe) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.555939] (got_coffe) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.557671] (got_coffe) StdoutLine: {'line': b'Copying ../../build/got_coffe/got_coffe.egg-info to /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info\n'}
+[6.562243] (got_coffe) StdoutLine: {'line': b'running install_scripts\n'}
+[6.581930] (-) TimerEvent: {}
+[6.683368] (-) TimerEvent: {}
+[6.686849] (got_coffe) StdoutLine: {'line': b'Installing camera script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe\n'}
+[6.688231] (got_coffe) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe\n'}
+[6.689155] (got_coffe) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/got_coffe/lib/got_coffe\n'}
+[6.691104] (got_coffe) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/got_coffe/install.log'\n"}
+[6.783726] (-) TimerEvent: {}
+[6.885299] (-) TimerEvent: {}
+[6.948741] (got_coffe) CommandEnded: {'returncode': 0}
+[6.985447] (-) TimerEvent: {}
+[7.061415] (got_coffe) JobEnded: {'identifier': 'got_coffe', 'rc': 0}
+[7.066898] (-) EventReactorShutdown: {}

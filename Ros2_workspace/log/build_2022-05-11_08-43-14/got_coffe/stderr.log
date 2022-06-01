@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py", line 100
+    ! echo 378 > /sys/class/gpio/export
+    ^
+SyntaxError: invalid syntax
+

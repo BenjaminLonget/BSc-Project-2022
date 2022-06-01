@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001179] (-) JobUnselected: {'identifier': 'got_coffe'}
+[0.002582] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003799] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004930] (nn_drone_final) JobQueued: {'identifier': 'nn_drone_final', 'dependencies': OrderedDict()}
+[0.007200] (nn_drone_final) JobStarted: {'identifier': 'nn_drone_final'}
+[0.098651] (-) TimerEvent: {}
+[0.200175] (-) TimerEvent: {}
+[0.301475] (-) TimerEvent: {}
+[0.402808] (-) TimerEvent: {}
+[0.504095] (-) TimerEvent: {}
+[0.607829] (-) TimerEvent: {}
+[0.711852] (-) TimerEvent: {}
+[0.816276] (-) TimerEvent: {}
+[0.920122] (-) TimerEvent: {}
+[1.024697] (-) TimerEvent: {}
+[1.127693] (-) TimerEvent: {}
+[1.230128] (-) TimerEvent: {}
+[1.331464] (-) TimerEvent: {}
+[1.432886] (-) TimerEvent: {}
+[1.534163] (-) TimerEvent: {}
+[1.635628] (-) TimerEvent: {}
+[1.740713] (-) TimerEvent: {}
+[1.841984] (-) TimerEvent: {}
+[1.943391] (-) TimerEvent: {}
+[2.044703] (-) TimerEvent: {}
+[2.146058] (-) TimerEvent: {}
+[2.247386] (-) TimerEvent: {}
+[2.348736] (-) TimerEvent: {}
+[2.449992] (-) TimerEvent: {}
+[2.551264] (-) TimerEvent: {}
+[2.652573] (-) TimerEvent: {}
+[2.753837] (-) TimerEvent: {}
+[2.855085] (-) TimerEvent: {}
+[2.956371] (-) TimerEvent: {}
+[3.057660] (-) TimerEvent: {}
+[3.159018] (-) TimerEvent: {}
+[3.260331] (-) TimerEvent: {}
+[3.361644] (-) TimerEvent: {}
+[3.462870] (-) TimerEvent: {}
+[3.564150] (-) TimerEvent: {}
+[3.665525] (-) TimerEvent: {}
+[3.766851] (-) TimerEvent: {}
+[3.868261] (-) TimerEvent: {}
+[3.969686] (-) TimerEvent: {}
+[4.071041] (-) TimerEvent: {}
+[4.172445] (-) TimerEvent: {}
+[4.273844] (-) TimerEvent: {}
+[4.375414] (-) TimerEvent: {}
+[4.477058] (-) TimerEvent: {}
+[4.578733] (-) TimerEvent: {}
+[4.635100] (nn_drone_final) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nn_drone_final', 'build', '--build-base', '/home/xilinx/wrkspace/build/nn_drone_final/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/nn_drone_final', '--record', '/home/xilinx/wrkspace/build/nn_drone_final/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/nn_drone_final', 'env': {'SUDO_GID': '0', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'BOARD': 'Ultra96', 'RESIZED': '1', 'SUDO_UID': '0', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/opt/ros/foxy/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'root', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/xilinx/wrkspace/build/nn_drone_final', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.396939] (-) TimerEvent: {}
+[5.500115] (-) TimerEvent: {}
+[5.601463] (-) TimerEvent: {}
+[5.702717] (-) TimerEvent: {}
+[5.803988] (-) TimerEvent: {}
+[5.905334] (-) TimerEvent: {}
+[6.006626] (-) TimerEvent: {}
+[6.107903] (-) TimerEvent: {}
+[6.144075] (nn_drone_final) StdoutLine: {'line': b'running egg_info\n'}
+[6.148831] (nn_drone_final) StdoutLine: {'line': b'writing ../../build/nn_drone_final/nn_drone_final.egg-info/PKG-INFO\n'}
+[6.150405] (nn_drone_final) StdoutLine: {'line': b'writing dependency_links to ../../build/nn_drone_final/nn_drone_final.egg-info/dependency_links.txt\n'}
+[6.151428] (nn_drone_final) StdoutLine: {'line': b'writing entry points to ../../build/nn_drone_final/nn_drone_final.egg-info/entry_points.txt\n'}
+[6.152384] (nn_drone_final) StdoutLine: {'line': b'writing requirements to ../../build/nn_drone_final/nn_drone_final.egg-info/requires.txt\n'}
+[6.153231] (nn_drone_final) StdoutLine: {'line': b'writing top-level names to ../../build/nn_drone_final/nn_drone_final.egg-info/top_level.txt\n'}
+[6.208167] (-) TimerEvent: {}
+[6.309506] (-) TimerEvent: {}
+[6.410843] (-) TimerEvent: {}
+[6.412085] (nn_drone_final) StdoutLine: {'line': b"reading manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'\n"}
+[6.418425] (nn_drone_final) StdoutLine: {'line': b"writing manifest file '../../build/nn_drone_final/nn_drone_final.egg-info/SOURCES.txt'\n"}
+[6.419712] (nn_drone_final) StdoutLine: {'line': b'running build\n'}
+[6.420395] (nn_drone_final) StdoutLine: {'line': b'running build_py\n'}
+[6.421125] (nn_drone_final) StdoutLine: {'line': b'copying nn_drone_final/nn_node.py -> /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final\n'}
+[6.423144] (nn_drone_final) StdoutLine: {'line': b'running install\n'}
+[6.428936] (nn_drone_final) StdoutLine: {'line': b'running install_lib\n'}
+[6.435641] (nn_drone_final) StdoutLine: {'line': b'copying /home/xilinx/wrkspace/build/nn_drone_final/build/lib/nn_drone_final/nn_node.py -> /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final\n'}
+[6.439427] (nn_drone_final) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/nn_node.py to nn_node.cpython-38.pyc\n'}
+[6.453468] (nn_drone_final) StdoutLine: {'line': b'running install_data\n'}
+[6.457424] (nn_drone_final) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.467370] (nn_drone_final) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.469108] (nn_drone_final) StdoutLine: {'line': b'Copying ../../build/nn_drone_final/nn_drone_final.egg-info to /home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final-0.0.0-py3.8.egg-info\n'}
+[6.473645] (nn_drone_final) StdoutLine: {'line': b'running install_scripts\n'}
+[6.511081] (-) TimerEvent: {}
+[6.594228] (nn_drone_final) StdoutLine: {'line': b'Installing cam_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final\n'}
+[6.595555] (nn_drone_final) StdoutLine: {'line': b'Installing nn_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final\n'}
+[6.596514] (nn_drone_final) StdoutLine: {'line': b'Installing nn_sub_node script to /home/xilinx/wrkspace/install/nn_drone_final/lib/nn_drone_final\n'}
+[6.598023] (nn_drone_final) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/nn_drone_final/install.log'\n"}
+[6.611403] (-) TimerEvent: {}
+[6.713044] (-) TimerEvent: {}
+[6.814711] (-) TimerEvent: {}
+[6.855851] (nn_drone_final) CommandEnded: {'returncode': 0}
+[6.914991] (-) TimerEvent: {}
+[6.943348] (nn_drone_final) JobEnded: {'identifier': 'nn_drone_final', 'rc': 0}
+[6.949856] (-) EventReactorShutdown: {}

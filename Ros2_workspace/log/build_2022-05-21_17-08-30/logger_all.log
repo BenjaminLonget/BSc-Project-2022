@@ -1,0 +1,162 @@
+[10.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'nn_drone_final']
+[10.065s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa2ad6580>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['nn_drone_final'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa2ad6580>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa2ad6ac0>)
+[11.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.985s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xilinx/wrkspace'
+[12.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[13.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[13.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[13.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[13.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[13.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[13.022s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[13.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[13.027s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[13.028s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[13.029s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[13.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[13.043s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[13.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[13.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[13.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[13.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[13.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[13.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[13.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[13.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[13.060s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[13.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[13.061s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[13.062s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[13.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[13.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[13.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[13.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[13.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extensions ['ignore', 'ignore_ament_install']
+[13.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extension 'ignore'
+[13.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extension 'ignore_ament_install'
+[13.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extensions ['colcon_pkg']
+[13.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extension 'colcon_pkg'
+[13.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extensions ['colcon_meta']
+[13.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extension 'colcon_meta'
+[13.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extensions ['ros']
+[13.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/got_coffe) by extension 'ros'
+[13.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/got_coffe' with type 'ros.ament_python' and name 'got_coffe'
+[13.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[13.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[13.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[13.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[13.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[13.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[13.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[13.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[13.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[13.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[13.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extensions ['ignore', 'ignore_ament_install']
+[13.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extension 'ignore'
+[13.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extension 'ignore_ament_install'
+[13.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extensions ['colcon_pkg']
+[13.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extension 'colcon_pkg'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extensions ['colcon_meta']
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extension 'colcon_meta'
+[13.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extensions ['ros']
+[13.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/nn_drone_final) by extension 'ros'
+[13.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nn_drone_final' with type 'ros.ament_python' and name 'nn_drone_final'
+[13.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[13.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[13.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[13.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[13.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[13.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[13.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[13.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[13.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[13.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[13.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[13.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[13.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[13.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[13.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[15.048s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'got_coffe' in 'src/got_coffe'
+[15.049s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_package' in 'src/my_package'
+[15.084s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'src/py_pubsub'
+[15.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[15.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[15.357s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/xilinx/px4_ros_com_ros2/install
+[15.453s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[15.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[21.613s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_args' from command line to 'None'
+[21.613s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_target' from command line to 'None'
+[21.614s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[21.614s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_clean_cache' from command line to 'False'
+[21.614s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_clean_first' from command line to 'False'
+[21.614s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'cmake_force_configure' from command line to 'False'
+[21.615s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'ament_cmake_args' from command line to 'None'
+[21.615s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'catkin_cmake_args' from command line to 'None'
+[21.615s] Level 5:colcon.colcon_core.verb:set package 'nn_drone_final' build argument 'catkin_skip_building_tests' from command line to 'False'
+[21.615s] DEBUG:colcon.colcon_core.verb:Building package 'nn_drone_final' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xilinx/wrkspace/build/nn_drone_final', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xilinx/wrkspace/install/nn_drone_final', 'merge_install': False, 'path': '/home/xilinx/wrkspace/src/nn_drone_final', 'symlink_install': False, 'test_result_base': None}
+[21.641s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[21.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[21.760s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xilinx/wrkspace/src/nn_drone_final' with build type 'ament_python'
+[21.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_drone_final', 'ament_prefix_path')
+[22.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[22.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/ament_prefix_path.ps1'
+[22.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/ament_prefix_path.dsv'
+[22.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/ament_prefix_path.sh'
+[22.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.935s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xilinx/wrkspace/src/nn_drone_final'
+[39.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[74.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xilinx/wrkspace/src/nn_drone_final': PYTHONPATH=/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_drone_final build --build-base /home/xilinx/wrkspace/build/nn_drone_final/build install --prefix /home/xilinx/wrkspace/install/nn_drone_final --record /home/xilinx/wrkspace/build/nn_drone_final/install.log --single-version-externally-managed
+[99.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xilinx/wrkspace/src/nn_drone_final' returned '0': PYTHONPATH=/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nn_drone_final build --build-base /home/xilinx/wrkspace/build/nn_drone_final/build install --prefix /home/xilinx/wrkspace/install/nn_drone_final --record /home/xilinx/wrkspace/build/nn_drone_final/install.log --single-version-externally-managed
+[99.361s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final' for CMake module files
+[99.465s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final' for CMake config files
+[99.489s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final/lib'
+[99.528s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final/bin'
+[99.529s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final/lib/pkgconfig/nn_drone_final.pc'
+[99.538s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages'
+[99.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('nn_drone_final', 'pythonpath')
+[99.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/pythonpath.ps1'
+[99.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/pythonpath.dsv'
+[99.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/hook/pythonpath.sh'
+[99.738s] Level 1:colcon.colcon_core.environment:checking '/home/xilinx/wrkspace/install/nn_drone_final/bin'
+[99.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nn_drone_final)
+[99.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/package.ps1'
+[99.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/package.dsv'
+[99.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/package.sh'
+[99.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/package.bash'
+[99.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/xilinx/wrkspace/install/nn_drone_final/share/nn_drone_final/package.zsh'
+[100.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xilinx/wrkspace/install/nn_drone_final/share/colcon-core/packages/nn_drone_final)
+[100.056s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[100.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[100.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[100.100s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[100.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[100.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[100.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[100.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[100.337s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[100.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[100.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/wrkspace/install/local_setup.ps1'
+[100.383s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xilinx/wrkspace/install/_local_setup_util_ps1.py'
+[100.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/wrkspace/install/setup.ps1'
+[100.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/wrkspace/install/local_setup.sh'
+[100.554s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xilinx/wrkspace/install/_local_setup_util_sh.py'
+[100.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/wrkspace/install/setup.sh'
+[100.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/wrkspace/install/local_setup.bash'
+[100.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/wrkspace/install/setup.bash'
+[100.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xilinx/wrkspace/install/local_setup.zsh'
+[100.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xilinx/wrkspace/install/setup.zsh'

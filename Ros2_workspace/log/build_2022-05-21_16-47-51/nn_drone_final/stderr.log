@@ -1,0 +1,5 @@
+  File "/home/xilinx/wrkspace/install/nn_drone_final/lib/python3.8/site-packages/nn_drone_final/SimpleArmMission.py", line 26
+    if(msg.data.find("monitor") == 0 && self.armed == False):
+                                      ^
+SyntaxError: invalid syntax
+

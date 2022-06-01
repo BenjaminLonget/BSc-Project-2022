@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.001776] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003570] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.004719] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.091255] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098628] (-) TimerEvent: {}
+[0.200720] (-) TimerEvent: {}
+[0.301719] (-) TimerEvent: {}
+[0.402598] (-) TimerEvent: {}
+[0.503625] (-) TimerEvent: {}
+[0.605042] (-) TimerEvent: {}
+[0.707583] (-) TimerEvent: {}
+[0.809263] (-) TimerEvent: {}
+[0.910471] (-) TimerEvent: {}
+[1.011735] (-) TimerEvent: {}
+[1.113050] (-) TimerEvent: {}
+[1.214291] (-) TimerEvent: {}
+[1.317707] (-) TimerEvent: {}
+[1.419060] (-) TimerEvent: {}
+[1.520384] (-) TimerEvent: {}
+[1.621616] (-) TimerEvent: {}
+[1.722856] (-) TimerEvent: {}
+[1.824157] (-) TimerEvent: {}
+[1.925464] (-) TimerEvent: {}
+[2.026794] (-) TimerEvent: {}
+[2.128189] (-) TimerEvent: {}
+[2.229839] (-) TimerEvent: {}
+[2.331293] (-) TimerEvent: {}
+[2.432414] (-) TimerEvent: {}
+[2.533603] (-) TimerEvent: {}
+[2.634549] (-) TimerEvent: {}
+[2.735427] (-) TimerEvent: {}
+[2.836262] (-) TimerEvent: {}
+[2.937017] (-) TimerEvent: {}
+[3.037716] (-) TimerEvent: {}
+[3.138738] (-) TimerEvent: {}
+[3.240368] (-) TimerEvent: {}
+[3.341741] (-) TimerEvent: {}
+[3.443058] (-) TimerEvent: {}
+[3.544443] (-) TimerEvent: {}
+[3.645742] (-) TimerEvent: {}
+[3.747093] (-) TimerEvent: {}
+[3.848364] (-) TimerEvent: {}
+[3.949726] (-) TimerEvent: {}
+[4.051000] (-) TimerEvent: {}
+[4.152276] (-) TimerEvent: {}
+[4.253666] (-) TimerEvent: {}
+[4.355170] (-) TimerEvent: {}
+[4.456540] (-) TimerEvent: {}
+[4.557922] (-) TimerEvent: {}
+[4.659062] (-) TimerEvent: {}
+[4.759982] (-) TimerEvent: {}
+[4.861185] (-) TimerEvent: {}
+[4.962881] (-) TimerEvent: {}
+[5.064420] (-) TimerEvent: {}
+[5.165543] (-) TimerEvent: {}
+[5.266392] (-) TimerEvent: {}
+[5.367114] (-) TimerEvent: {}
+[5.467845] (-) TimerEvent: {}
+[5.568567] (-) TimerEvent: {}
+[5.669288] (-) TimerEvent: {}
+[5.770282] (-) TimerEvent: {}
+[5.871797] (-) TimerEvent: {}
+[5.973164] (-) TimerEvent: {}
+[6.074476] (-) TimerEvent: {}
+[6.175895] (-) TimerEvent: {}
+[6.277220] (-) TimerEvent: {}
+[6.378549] (-) TimerEvent: {}
+[6.480744] (-) TimerEvent: {}
+[7.120036] (-) TimerEvent: {}
+[7.225529] (-) TimerEvent: {}
+[7.331217] (-) TimerEvent: {}
+[7.436070] (-) TimerEvent: {}
+[7.541418] (-) TimerEvent: {}
+[7.646487] (-) TimerEvent: {}
+[7.751170] (-) TimerEvent: {}
+[7.852514] (-) TimerEvent: {}
+[7.954046] (-) TimerEvent: {}
+[8.055409] (-) TimerEvent: {}
+[8.156848] (-) TimerEvent: {}
+[8.258388] (-) TimerEvent: {}
+[8.359868] (-) TimerEvent: {}
+[8.461185] (-) TimerEvent: {}
+[8.562484] (-) TimerEvent: {}
+[8.663776] (-) TimerEvent: {}
+[8.766654] (-) TimerEvent: {}
+[8.868143] (-) TimerEvent: {}
+[8.969604] (-) TimerEvent: {}
+[9.061799] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/xilinx/wrkspace/build/my_package/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/my_package', '--record', '/home/xilinx/wrkspace/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'JUPYTER_SERVER_ROOT': '/home/xilinx/jupyter_notebooks', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'OLDPWD': '/home/xilinx/wrkspace/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'BOARD': 'Ultra96', 'RESIZED': '1', 'PYXTERM_DIMENSIONS': '80x25', 'ROS_DISTRO': 'foxy', 'JOURNAL_STREAM': '8:10724', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'COLUMNS': '124', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'INVOCATION_ID': '05553a2e0f9f45d4abce5a0431c86731', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'LINES': '49', 'PYTHONPATH': '/home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'JUPYTER_SERVER_URL': 'http://0.0.0.0:9090/'}, 'shell': False}
+[9.073685] (-) TimerEvent: {}
+[9.183275] (-) TimerEvent: {}
+[9.284750] (-) TimerEvent: {}
+[9.386215] (-) TimerEvent: {}
+[9.489178] (-) TimerEvent: {}
+[9.590535] (-) TimerEvent: {}
+[9.691880] (-) TimerEvent: {}
+[9.793294] (-) TimerEvent: {}
+[9.894655] (-) TimerEvent: {}
+[9.996141] (-) TimerEvent: {}
+[10.097569] (-) TimerEvent: {}
+[10.198980] (-) TimerEvent: {}
+[10.233643] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/xilinx/wrkspace/build/py_pubsub/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/py_pubsub', '--record', '/home/xilinx/wrkspace/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'JUPYTER_SERVER_ROOT': '/home/xilinx/jupyter_notebooks', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'OLDPWD': '/home/xilinx/wrkspace/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'BOARD': 'Ultra96', 'RESIZED': '1', 'PYXTERM_DIMENSIONS': '80x25', 'ROS_DISTRO': 'foxy', 'JOURNAL_STREAM': '8:10724', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'COLUMNS': '124', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'INVOCATION_ID': '05553a2e0f9f45d4abce5a0431c86731', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'LINES': '49', 'PYTHONPATH': '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'JUPYTER_SERVER_URL': 'http://0.0.0.0:9090/'}, 'shell': False}
+[10.299298] (-) TimerEvent: {}
+[10.400761] (-) TimerEvent: {}
+[10.502127] (-) TimerEvent: {}
+[10.604868] (-) TimerEvent: {}
+[10.706311] (-) TimerEvent: {}
+[10.761180] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[10.767992] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[10.769426] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[10.771014] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[10.772253] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[10.773501] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[10.774284] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[10.791685] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[10.806564] (-) TimerEvent: {}
+[10.911587] (-) TimerEvent: {}
+[11.016164] (-) TimerEvent: {}
+[11.063274] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[11.068797] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[11.070256] (my_package) StdoutLine: {'line': b'running build\n'}
+[11.071366] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[11.072466] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/build/my_package/build\n'}
+[11.073523] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/build/my_package/build/lib\n'}
+[11.074472] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/build/my_package/build/lib/my_package\n'}
+[11.075087] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/xilinx/wrkspace/build/my_package/build/lib/my_package\n'}
+[11.075704] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/xilinx/wrkspace/build/my_package/build/lib/my_package\n'}
+[11.076245] (my_package) StdoutLine: {'line': b'running install\n'}
+[11.080065] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[11.087048] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[11.088584] (my_package) StdoutLine: {'line': b'copying /home/xilinx/wrkspace/build/my_package/build/lib/my_package/__init__.py -> /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[11.089568] (my_package) StdoutLine: {'line': b'copying /home/xilinx/wrkspace/build/my_package/build/lib/my_package/my_node.py -> /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package\n'}
+[11.092118] (my_package) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc\n'}
+[11.103178] (my_package) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc\n'}
+[11.104742] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[11.109275] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/install/my_package/share/ament_index\n'}
+[11.110880] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/install/my_package/share/ament_index/resource_index\n'}
+[11.111997] (my_package) StdoutLine: {'line': b'creating /home/xilinx/wrkspace/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.112770] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/xilinx/wrkspace/install/my_package/share/ament_index/resource_index/packages\n'}
+[11.113583] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/xilinx/wrkspace/install/my_package/share/my_package\n'}
+[11.114293] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.116346] (-) TimerEvent: {}
+[11.124487] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/xilinx/wrkspace/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[11.129964] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[11.216640] (-) TimerEvent: {}
+[11.271881] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/xilinx/wrkspace/install/my_package/lib/my_package\n'}
+[11.274062] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/my_package/install.log'\n"}
+[11.316992] (-) TimerEvent: {}
+[11.422093] (-) TimerEvent: {}
+[11.527540] (-) TimerEvent: {}
+[11.556599] (my_package) CommandEnded: {'returncode': 0}
+[11.629491] (-) TimerEvent: {}
+[11.677396] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[11.729755] (-) TimerEvent: {}
+[11.832640] (-) TimerEvent: {}
+[11.924528] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[11.929325] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[11.932893] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[11.933846] (-) TimerEvent: {}
+[11.938006] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[11.939278] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[11.939964] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[12.034124] (-) TimerEvent: {}
+[12.138053] (-) TimerEvent: {}
+[12.199859] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[12.207021] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[12.208220] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[12.208916] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[12.214095] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[12.219788] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[12.230878] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[12.236430] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.238135] (-) TimerEvent: {}
+[12.249122] (py_pubsub) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[12.251655] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[12.256816] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[12.338418] (-) TimerEvent: {}
+[12.379786] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub\n'}
+[12.381639] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub\n'}
+[12.383793] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/py_pubsub/install.log'\n"}
+[12.438755] (-) TimerEvent: {}
+[12.543528] (-) TimerEvent: {}
+[12.641082] (py_pubsub) CommandEnded: {'returncode': 0}
+[12.646732] (-) TimerEvent: {}
+[12.693102] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[12.698994] (-) EventReactorShutdown: {}

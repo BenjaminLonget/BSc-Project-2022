@@ -1,0 +1,5 @@
+[console_scripts]
+camera = got_coffe.cam_node:main
+listener = got_coffe.nn_sub:main
+talker = got_coffe.nn_pub:main
+

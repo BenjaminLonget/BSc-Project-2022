@@ -1,0 +1,32 @@
+[38.718s] Invoking command in '/home/xilinx/wrkspace/src/got_coffe': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/share/pynq-venv/bin/python3 setup.py egg_info --egg-base ../../build/got_coffe build --build-base /home/xilinx/wrkspace/build/got_coffe/build install --prefix /home/xilinx/wrkspace/install/got_coffe --record /home/xilinx/wrkspace/build/got_coffe/install.log --single-version-externally-managed
+[41.485s] /usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/dist.py:767: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[41.486s]   warnings.warn(
+[48.494s] running egg_info
+[49.240s] writing ../../build/got_coffe/got_coffe.egg-info/PKG-INFO
+[49.786s] writing dependency_links to ../../build/got_coffe/got_coffe.egg-info/dependency_links.txt
+[51.696s] writing entry points to ../../build/got_coffe/got_coffe.egg-info/entry_points.txt
+[52.894s] writing requirements to ../../build/got_coffe/got_coffe.egg-info/requires.txt
+[53.501s] writing top-level names to ../../build/got_coffe/got_coffe.egg-info/top_level.txt
+[54.438s] reading manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'
+[54.449s] writing manifest file '../../build/got_coffe/got_coffe.egg-info/SOURCES.txt'
+[54.450s] running build
+[54.452s] running build_py
+[54.453s] running install
+[54.454s] /usr/local/share/pynq-venv/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[54.455s]   warnings.warn(
+[54.518s] running install_lib
+[55.290s] byte-compiling /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py to nn_pub.cpython-38.pyc
+[55.291s]   File "/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe/nn_pub.py", line 4
+[55.293s]     from DPU-PYNQ.pynq_dpu import DpuOverlay
+[55.294s]             ^
+[55.295s] SyntaxError: invalid syntax
+[55.295s] 
+[55.296s] running install_data
+[55.444s] running install_egg_info
+[56.216s] removing '/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info' (and everything under it)
+[56.218s] Copying ../../build/got_coffe/got_coffe.egg-info to /home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages/got_coffe-0.0.0-py3.8.egg-info
+[56.225s] running install_scripts
+[57.703s] Installing listener script to /home/xilinx/wrkspace/install/got_coffe/bin
+[57.704s] Installing talker script to /home/xilinx/wrkspace/install/got_coffe/bin
+[57.707s] writing list of installed files to '/home/xilinx/wrkspace/build/got_coffe/install.log'
+[58.698s] Invoked command in '/home/xilinx/wrkspace/src/got_coffe' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/xilinx/wrkspace/install/got_coffe/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/share/pynq-venv/bin/python3 setup.py egg_info --egg-base ../../build/got_coffe build --build-base /home/xilinx/wrkspace/build/got_coffe/build install --prefix /home/xilinx/wrkspace/install/got_coffe --record /home/xilinx/wrkspace/build/got_coffe/install.log --single-version-externally-managed

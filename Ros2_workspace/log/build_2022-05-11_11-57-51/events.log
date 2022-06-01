@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001808] (-) JobUnselected: {'identifier': 'got_coffe'}
+[0.002425] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003719] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.004883] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098618] (-) TimerEvent: {}
+[0.200250] (-) TimerEvent: {}
+[0.301616] (-) TimerEvent: {}
+[0.402921] (-) TimerEvent: {}
+[0.504233] (-) TimerEvent: {}
+[0.605553] (-) TimerEvent: {}
+[0.706849] (-) TimerEvent: {}
+[0.808136] (-) TimerEvent: {}
+[0.909466] (-) TimerEvent: {}
+[1.010728] (-) TimerEvent: {}
+[1.111961] (-) TimerEvent: {}
+[1.213282] (-) TimerEvent: {}
+[1.314610] (-) TimerEvent: {}
+[1.415929] (-) TimerEvent: {}
+[1.517298] (-) TimerEvent: {}
+[1.618727] (-) TimerEvent: {}
+[1.720475] (-) TimerEvent: {}
+[1.822088] (-) TimerEvent: {}
+[1.924072] (-) TimerEvent: {}
+[2.025454] (-) TimerEvent: {}
+[2.126786] (-) TimerEvent: {}
+[2.228153] (-) TimerEvent: {}
+[2.329556] (-) TimerEvent: {}
+[2.430816] (-) TimerEvent: {}
+[2.532075] (-) TimerEvent: {}
+[2.633420] (-) TimerEvent: {}
+[2.734729] (-) TimerEvent: {}
+[2.836005] (-) TimerEvent: {}
+[2.937253] (-) TimerEvent: {}
+[3.038554] (-) TimerEvent: {}
+[3.139896] (-) TimerEvent: {}
+[3.241202] (-) TimerEvent: {}
+[3.342564] (-) TimerEvent: {}
+[3.443846] (-) TimerEvent: {}
+[3.545188] (-) TimerEvent: {}
+[3.646519] (-) TimerEvent: {}
+[3.747936] (-) TimerEvent: {}
+[3.849271] (-) TimerEvent: {}
+[3.960626] (-) TimerEvent: {}
+[4.061939] (-) TimerEvent: {}
+[4.555030] (-) TimerEvent: {}
+[4.656576] (-) TimerEvent: {}
+[4.758133] (-) TimerEvent: {}
+[4.786215] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/xilinx/wrkspace/build/py_pubsub/build', 'install', '--prefix', '/home/xilinx/wrkspace/install/py_pubsub', '--record', '/home/xilinx/wrkspace/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/xilinx/wrkspace/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYNQ_PYTHON': 'python3.8', 'MAIL': '/var/mail/xilinx', 'USER': 'xilinx', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/xilinx', 'OLDPWD': '/home/xilinx', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/home/xilinx/jupyter_notebooks', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'BOARD': 'Ultra96', 'RESIZED': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'xilinx', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': 'c6', 'ROS_LOCALHOST_ONLY': '0', 'ROS_OS_OVERRIDE': 'ubuntu:bionic', 'PATH': '/opt/ros/foxy/bin:/opt/sigrok/bin:/usr/local/share/pynq-venv/bin:/opt/mraa/bin:/opt/sigrok/bin:/opt/microblazeel-xilinx-elf/bin:/opt/python3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/xilinx/wrkspace/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.858422] (-) TimerEvent: {}
+[4.959846] (-) TimerEvent: {}
+[5.061169] (-) TimerEvent: {}
+[5.162384] (-) TimerEvent: {}
+[5.265260] (-) TimerEvent: {}
+[5.366583] (-) TimerEvent: {}
+[5.467820] (-) TimerEvent: {}
+[5.569063] (-) TimerEvent: {}
+[5.670272] (-) TimerEvent: {}
+[5.771514] (-) TimerEvent: {}
+[5.872769] (-) TimerEvent: {}
+[5.974013] (-) TimerEvent: {}
+[6.075275] (-) TimerEvent: {}
+[6.176557] (-) TimerEvent: {}
+[6.277846] (-) TimerEvent: {}
+[6.326167] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.330793] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[6.332379] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[6.333435] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[6.334430] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[6.335242] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[6.378079] (-) TimerEvent: {}
+[6.479480] (-) TimerEvent: {}
+[6.580996] (-) TimerEvent: {}
+[6.596748] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.602999] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.604258] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[6.604965] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[6.605660] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/xilinx/wrkspace/build/py_pubsub/build/lib/py_pubsub\n'}
+[6.607104] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[6.612978] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.619792] (py_pubsub) StdoutLine: {'line': b'copying /home/xilinx/wrkspace/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[6.623488] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[6.635435] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.639550] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.649544] (py_pubsub) StdoutLine: {'line': b"removing '/home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.651306] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/xilinx/wrkspace/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[6.655926] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.681199] (-) TimerEvent: {}
+[6.777725] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub\n'}
+[6.779129] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/xilinx/wrkspace/install/py_pubsub/lib/py_pubsub\n'}
+[6.780923] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/xilinx/wrkspace/build/py_pubsub/install.log'\n"}
+[6.781708] (-) TimerEvent: {}
+[6.882742] (-) TimerEvent: {}
+[6.984261] (-) TimerEvent: {}
+[7.039693] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.084620] (-) TimerEvent: {}
+[7.125845] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.130296] (-) EventReactorShutdown: {}
